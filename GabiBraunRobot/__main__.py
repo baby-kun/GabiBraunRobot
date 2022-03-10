@@ -53,7 +53,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Oɪ ᴏɪ ᴏɪ! Iᴍ Nᴀʀᴜᴛᴏ ᴜᴢᴜᴍᴀᴋɪ.` [👩‍💼](https://telegra.ph/file/d39de86ee463fd80815a2.mp4) 
+`Oɪ ᴏɪ ᴏɪ! Iᴍ Nᴀʀᴜᴛᴏ ᴜᴢᴜᴍᴀᴋɪ.` [×](https://telegra.ph/file/d39de86ee463fd80815a2.mp4) 
 ` Iᴍ ᴀɴ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ!.
   Iᴍ ᴍᴀᴅᴇ ʙʏ Cʜᴇʀʏ-ᴋᴜɴ ᴀɴᴅ ᴍᴀɴᴀɢᴇᴅ ʙʏ ᴛᴇᴀᴍ 7 ᴏғғɪᴄɪᴀʟs.
 ` ᴛᴏ sᴇᴇ ᴍʏ Jᴜᴛsᴜ sᴋɪʟʟs Hɪᴛ*/help*   
@@ -62,35 +62,35 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD GABI TO YOUR GROUP ➕️",url="t.me/Gabi_Braun_Robot?startgroup=true"),
+            text="summon Naruto",url="t.me/Blue_freya_bot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(
-              text="🔐 Command & Help", callback_data="help_back"),
+              text="Help", callback_data="help_back"),
      
     ],
     [     InlineKeyboardButton(
-            text="🎦 H.S.A Group", url="https://telegram.dog/Hindisubsanimes"),
+            text="flirt area", url="https://telegram.dog/flirt_area"),
     
     ],
     [
         InlineKeyboardButton(
-            text="📮 Update Channel", url="https://telegram.dog/EldianGabi_UpdateChannel"),
+            text=" Updates", url="https://telegram.dog/eruxupdates"),
     ],
     [
         InlineKeyboardButton(
-            text="📑 Loges", url="https://t.me/Gabi_Support_Log"),
+            text="Log", url="https://t.me/eruXsupport"),
           
 
 
 InlineKeyboardButton(
-            text="🐱 SUPPORT", url="https://telegram.dog/GabiHelpSupport"
+            text="SUPPORT", url="https://telegram.dog/eruXsupport"
         ),
 
     ],
     [
         InlineKeyboardButton(
-                    text="🗄️ Source Code", url="https://github.com/Falco-Grice/GabiBraunRobot"
+                    text="Source Code", url="https://github.com/baby-kun/GabiBraunRobot"
         ),
     ],
 ]
