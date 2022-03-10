@@ -54,7 +54,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 `Oɪ ᴏɪ ᴏɪ! Iᴍ Nᴀʀᴜᴛᴏ ᴜᴢᴜᴍᴀᴋɪ.` [×](https://telegra.ph/file/d39de86ee463fd80815a2.mp4) 
-────────────────────────
+───────────────────────
 ` Iᴍ ᴀɴ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ!.
   Iᴍ ᴍᴀᴅᴇ ʙʏ Cʜᴇʀʏ-ᴋᴜɴ ᴀɴᴅ ᴍᴀɴᴀɢᴇᴅ ʙʏ ᴛᴇᴀᴍ 7 ᴏғғɪᴄɪᴀʟs.
 ────────────────────────
@@ -64,35 +64,35 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="summon Naruto",url="t.me/Blue_freya_bot?startgroup=true"),
+            text="✧ Sᴜᴍᴍᴏɴ ɴᴀʀᴜᴛᴏ ✧  ",url="t.me/Blue_freya_bot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(
-              text="Help", callback_data="help_back"),
+              text="✧ Cᴏᴍᴍᴀɴᴅ ʟɪsᴛ ✧", callback_data="help_back"),
      
     ],
     [     InlineKeyboardButton(
-            text="flirt area", url="https://telegram.dog/flirt_area"),
+            text="✧ Fʟɪʀᴛ ᴀʀᴇᴀ ✧", url="https://telegram.dog/flirt_area"),
     
     ],
     [
         InlineKeyboardButton(
-            text=" Updates", url="https://telegram.dog/eruxupdates"),
+            text="☆ Uᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ☆", url="https://telegram.dog/eruxupdates"),
     ],
     [
         InlineKeyboardButton(
-            text="Log", url="https://t.me/eruXsupport"),
+            text="☆ Lᴏɢs ☆", url="https://t.me/eruXsupport"),
           
 
 
 InlineKeyboardButton(
-            text="SUPPORT", url="https://telegram.dog/eruXsupport"
+            text="☆ Sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ ☆", url="https://telegram.dog/eruXsupport"
         ),
 
     ],
     [
         InlineKeyboardButton(
-                    text="GitHub", url="https://github.com/baby-kun"
+                    text="GɪᴛHᴜʙ (-_-メ)", url="https://github.com/baby-kun"
         ),
     ],
 ]
