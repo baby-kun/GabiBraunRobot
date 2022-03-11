@@ -221,24 +221,45 @@ def start(update: Update, context: CallbackContext):
             ),
             parse_mode=ParseMode.HTML,
                 reply_markup=InlineKeyboardMarkup(
-                    [[
-                        InlineKeyboardButton(
-                            text="Sᴜᴍᴍᴏɴ ᴇʀᴜ ",
-                            url="t.me/{}?startgroup=true".format(context.bot.username))
-                    ],
                     [
-                        InlineKeyboardButton(
-                            text="Cʜᴇʀʀʏ-ᴋᴜɴ ",
-                            url="https://t.me/yoi_babes"),
-                        InlineKeyboardButton(
-                            text="Uᴘᴅᴀᴛᴇs",
-                            url="https://t.me/eruxupdates")
+                        [
+                            InlineKeyboardButton(
+                                text="Sᴜᴍᴍᴏɴ Nᴀʀᴜᴛᴏ",
+                                url="t.me/Blue_freya_bot?startgroup=true".format(
+                                    context.bot.username,
+                                ),
+                            ),
+                        ],
+                        [
+                            InlineKeyboardButton(
+                                text="Sᴜᴘᴘᴏʀᴛ",
+                                url=f"https://t.me/{SUPPORT_CHAT}",
+                            ),
+                            InlineKeyboardButton(
+                                text="Uᴘᴅᴀᴛᴇs",
+                                url="https://t.me/eruxupdates",
+                            ),
+                        ],
+                        [
+                            InlineKeyboardButton(
+                                text="Cʜᴇʀʀʏ",
+                                url="https://t.me/yoi_babes",
+                            ),
+                            InlineKeyboardButton(
+                                text="Hᴇʟᴘ",
+                                url="t.me/Blue_freya_bot?start=help",
+                            ),
+                        ],
+                        [
+                            InlineKeyboardButton(
+                                text="Aᴄᴀᴅᴇᴍʏ",
+                                url="https://t.me/theacademy_official",
+                            ),
+                        ],
                     ],
-                    [
-                        InlineKeyboardButton(
-                            text="Hᴇʟᴘ",
-                            url="t.me/eruxbot?start=help")
-                    ]]))
+                ),
+            )
+
 
 
 
