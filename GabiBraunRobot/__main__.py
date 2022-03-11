@@ -216,8 +216,7 @@ def start(update: Update, context: CallbackContext):
     else:
         update.effective_message.reply_animation(
             GROUP_START_IMG,
-            caption="<code>╔════════════════╗
-                           oi oi oi I'm Naruto \nI am Awake Since</code>: <code>{}</code>".format(
+            caption="<code> oi oi oi I'm Naruto \nI am Awake Since</code>: <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
