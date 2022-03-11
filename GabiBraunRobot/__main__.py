@@ -50,7 +50,7 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-
+GROUP_START_IMG = "https://telegra.ph/file/3a7270faf7bc01c8fb6cf.mp4"
 
 PM_START_TEXT = """
 `× Oɪ ᴏɪ ᴏɪ! Iᴍ Nᴀʀᴜᴛᴏ ᴜᴢᴜᴍᴀᴋɪ.` [×](https://telegra.ph/file/d39de86ee463fd80815a2.mp4) 
@@ -214,12 +214,39 @@ def start(update: Update, context: CallbackContext):
                 timeout=60,
             )
     else:
-        update.effective_message.reply_text(
-            "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
+        update.effective_message.reply_animation(
+            GROUP_START_IMG,
+            caption="<code> oi oi oi I'm Naruto \nI am Awake Since</code>: <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
-        )
+                reply_markup=InlineKeyboardMarkup(
+                    [[
+                        InlineKeyboardButton(
+                            text="Sᴜᴍᴍᴏɴ ᴇʀᴜ ",
+                            url="t.me/{}?startgroup=true".format(context.bot.username))
+                    ],
+                    [
+                        InlineKeyboardButton(
+                            text="Cʜᴇʀʀʏ-ᴋᴜɴ ",
+                            url="https://t.me/yoi_babes"),
+                        InlineKeyboardButton(
+                            text="Uᴘᴅᴀᴛᴇs",
+                            url="https://t.me/eruxupdates")
+                    ],
+                    [
+                        InlineKeyboardButton(
+                            text="Hᴇʟᴘ",
+                            url="t.me/eruxbot?start=help")
+                    ]]))
+
+
+
+
+
+
+
+
 
 
 def error_handler(update, context):
